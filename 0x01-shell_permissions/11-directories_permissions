@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 chmod -R 111 0x01-shell_permissions
+=======
+find 0x01-shell_permissions -type d -exec chmod 111 {} \;
+>>>>>>> 4744cc0252bfe1d6c429ffd3db684412ceb376b8
