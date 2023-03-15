@@ -1,2 +1,2 @@
 #!/bin/bash
-export NUM={1..9}.{1..9}
+echo "3.14159" | awk '{printf "%.2f\n", $1}'
