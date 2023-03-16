@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -w 'c''C'
+grep -w "c""C"
