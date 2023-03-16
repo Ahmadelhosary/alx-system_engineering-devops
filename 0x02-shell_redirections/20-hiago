@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -w "c""C"
+tr -d c | tr -d C
