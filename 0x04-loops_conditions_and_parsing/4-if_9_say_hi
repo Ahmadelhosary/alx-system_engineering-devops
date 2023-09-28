@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
+# This script is displaying "Best School" 10 times, with hi exception
 
 count=0
-while [ "$count" -le 10 ]
+while [ "$count" -lt 10 ]
 do
     echo "Best School"
     if [ "$count" -eq 9 ]; then
